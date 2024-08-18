@@ -1,0 +1,21 @@
+dependencies:
+  idf:
+    component_hash: null
+    source:
+      type: idf
+    version: 5.3.0
+  libmodbus:
+    component_hash: null
+    source:
+      path: /home/franz/git/fli/libmodbus-examples-esp-idf/libmodbus/components/libmodbus
+      type: local
+    version: '*'
+  protocol_examples_common:
+    component_hash: null
+    source:
+      path: /home/franz/esp-idf-v5.3/examples/common_components/protocol_examples_common
+      type: local
+    version: '*'
+manifest_hash: 4653c97016fad3c48c00ced0ce60b5a690f274276c8de2daab2b7d2fdb361f41
+target: esp32s3
+version: 1.0.0

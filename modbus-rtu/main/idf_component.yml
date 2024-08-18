@@ -1,0 +1,3 @@
+dependencies:
+  libmodbus:
+    path: ../../libmodbus/components/libmodbus

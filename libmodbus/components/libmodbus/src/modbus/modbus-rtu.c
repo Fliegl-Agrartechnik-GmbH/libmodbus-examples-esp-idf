@@ -666,7 +666,6 @@ static int _modbus_rtu_connect(modbus_t *ctx)
         }
         return -1;
     }
-
 #if defined(ESP_PLATFORM)    
     // We have a driver now installed so set up the read/write functions to use driver also.
     switch(ctx_rtu->device[10]) { //extract from /dev/uart/1
